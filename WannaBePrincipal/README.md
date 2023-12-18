@@ -14,15 +14,22 @@ Create a new folder called "keys". Copy the secret keys to this folder.
 
 ### 2. build
 
-`docker build -t wannabe -f Dockerfile .`
+```
+cd WannaBePrincipal
+docker build -t wannabe -f Dockerfile .
+```
 
 ### 3. run
 
-`docker run -p 8080:80 wannabe`
+```
+docker run -p 8080:80 wannabe
+```
 
 ### 4. test
 
-`dotnet test /p:CollectCoverage=true`
+```
+dotnet test /p:CollectCoverage=true
+```
 
 It run all tests and measure the coverage of them.
 
