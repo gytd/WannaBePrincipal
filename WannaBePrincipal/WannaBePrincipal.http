@@ -1,0 +1,6 @@
+@WannaBePrincipal_HostAddress = http://localhost:5215
+
+GET {{WannaBePrincipal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
